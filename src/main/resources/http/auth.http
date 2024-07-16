@@ -1,0 +1,15 @@
+# @no-cookie-jar
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Mehriddin",
+  "surname": "Soyibov",
+  "email": "soyibovmehriddin@gmail.com",
+  "password": "mehriddin123",
+  "phone": "942551397"
+}
+
+###
+
+GET http://localhost:8080/auth/sinov
